@@ -1,0 +1,5 @@
+Referências Bibliográficas:
+1- MCROBERTS, Michael. Arduino Básico: CRIE PROJETOS SIMPLES E PRÁTICOS COM ARDUINO, USANDO INSTRUÇÕES PASSO A PASSO E DIAGRAMAS FÁCEIS DE ACOMPANHAR. 2. ed. rev. São Paulo, SP: Novatec Editora LTDA, 2011. v. 1. ISBN 978-85-7522-274-4.
+2- CHOUGALE, Pankaj; YADAV, Vaibhav; GAIKWAD, Dr. Anil. FIREBASE - OVERVIEW AND USAGE. Journal of Engineering and Technology Management: International Research Journal Of Modernization In Engineering Technology And Science. Kolhapur, India, p. 1178-1183. Dec. 2021.
+3- Moroney, L. (2017). The Firebase Realtime Database. In: The Definitive Guide to Firebase. Apress, Berkeley, CA. Disponível em: https://doi.org/10.1007/978-1-4842-2943-9_3.
+4- META, INC (US). React Native. [S. l.]: Meta, Inc, 8 dez. 2023. Disponível em: https://reactnative.dev/.

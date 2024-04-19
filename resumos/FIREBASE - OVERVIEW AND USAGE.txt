@@ -1,0 +1,26 @@
+Referência:
+CHOUGALE, Pankaj; YADAV, Vaibhav; GAIKWAD, Dr. Anil. FIREBASE - OVERVIEW AND USAGE. Journal of Engineering and Technology Management: International Research Journal Of Modernization In Engineering Technology And Science. Kolhapur, India, p. 1178-1183. Dec. 2021.
+
+Resumo:
+O artigo é sobre o Google Firebase, uma plataforma de desenvolvimento de aplicativos apoiada pelo Google. Ela oferece uma variedade de serviços, como Analytics, Autenticação, Mensagens na Nuvem, Banco de Dados em Tempo Real, Crashlytics, Monitoramento de Desempenho, Test Lab, entre outros. O Firebase é útil para desenvolvedores criarem e gerenciarem aplicativos para iOS, Android e Web, oferecendo ferramentas para rastreamento de analytics, relatórios de erros, experimentos de marketing e produtos.
+Os principais pontos apresentados são:
+•	Analytics: Fornece relatórios ilimitados sobre o comportamento do usuário para melhorar o desempenho e a tomada de decisões de marketing.
+•	Autentication: Facilita a proteção dos sistemas de autenticação e oferece suporte para login via email, telefone e várias plataformas como Google, Facebook e Twitter.
+•	Cloud Messaging: Permite o envio de mensagens em tempo real para dispositivos iOS, Android e Web.
+•	Realtime Database: Armazena e sincroniza dados entre usuários em tempo real, mesmo offline.
+•	Crashlytics: Ajuda a rastrear e corrigir problemas de aplicativos em tempo real.
+•	Performance: Oferece insights sobre o desempenho dos aplicativos para melhorias contínuas.
+•	Test Lab: Infraestrutura de teste de aplicativos em vários dispositivos para garantir a qualidade.
+Dentre os principais casos de uso, são citados: Onboarding de Usuários; Personalização da Experiência do Usuário; Lançamento Progressivo de Novos Recursos.
+Com relação ao preço, o Firebase oferece um plano gratuito com opções pagas que variam em armazenamento e recursos adicionais.
+Os benefícios ofertados pela plataformas são: Armazenamento escalável e fácil integração com APIs para desenvolvedores; Suporte offline e controle de segurança robusto; Diversidade de serviços integrados em uma única plataforma.
+Dentre as suas desvantagesn, são apresentados o seguinte: Limitações nas consultas avançadas e desempenho para sistemas IoT complexos; Necessidade de complementar com outras ferramentas para análises mais profundas e monitoramento detalhado.
+A seção de Resultados e Discussão do artigo aborda várias funcionalidades e benefícios do Firebase para o desenvolvimento de aplicativos: 
+•	Notificações fora do contêiner: O Firebase Notifications permite enviar alertas para públicos-alvo específicos com base nos dados de Analytics do Firebase, facilitando o envio de notificações relevantes.
+•	Banco de Dados em Tempo Real e Firestore: Utilizando o NoSQL, o Firebase oferece uma solução de banco de dados em tempo real na Firestore, permitindo armazenar e sincronizar dados em tempo real entre usuários e dispositivos.
+•	Armazenamento em Nuvem Firebase: O Firebase Cloud Storage é usado para armazenar e gerenciar conteúdo gerado pelo usuário, como imagens, áudio e vídeo, de forma eficiente.
+•	Cloud Tasks: Permite medir e monitorar aplicativos em diferentes fases do ciclo de vida sem a necessidade de gerenciar servidores ativamente.
+•	Hospedagem e Verificação: O Firebase oferece métodos simples e ferramentas eficazes para hospedar e verificar aplicativos de forma fácil e eficiente.
+•	Firebase ML Kit APIs: Facilita a implementação de recursos avançados de aprendizado de máquina nos aplicativos, mesmo para desenvolvedores com conhecimento limitado nessa área.
+A conclusão do artigo destaca a pesquisa realizada sobre a API do Firebase fornecida pelo Google e suas características únicas. Ele demonstra como utilizar o Firebase no desenvolvimento de aplicativos com base nos requisitos dos clientes, resultando em aplicativos mais rápidos e eficientes, sem a necessidade de PHP como linguagem de terceiros para se comunicar com o site. Isso proporciona um canal de comunicação seguro e direto do JAVA para o site. Os materiais de aprendizagem são baseados em dados online e exemplos fornecidos. Além disso, ainda ressalta que o Google está constantemente atualizando o Firebase.
+Em suma, o Google Firebase oferece uma gama de ferramentas poderosas para o desenvolvimento e gerenciamento de aplicativos, embora tenha algumas limitações em casos específicos, como em sistemas IoT complexos e análises avançadas.
