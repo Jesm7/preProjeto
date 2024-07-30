@@ -1,0 +1,228 @@
+\usepackage[brazil,brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{bbding}
+%\usepackage{Verbatim}
+\usepackage{setspace}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage[export]{adjustbox}
+
+\usepackage{listings}% http://ctan.org/pkg/listings
+\lstset{
+  basicstyle=\ttfamily,
+  mathescape
+}
+\pagenumbering{arabic}
+%\renewcommand*{\thepage}{\small\arabic{page}}
+\pagestyle{myheadings}
+\usepackage{blindtext}
+\makeatletter
+\def\ps@myotherheadings{%
+  \def\@evenfoot{\thepage\hfil}%  -> page number then fill
+  \def\@oddfoot{\hfil\thepage} %  -> fill, then page number
+  \def\@oddhead{{\slshape\rightmark}\hfil} % remove the page number
+  \def\@evenhead{\hfil\slshape\leftmark}%
+  \let\@mkboth\@gobbletwo
+  \let\sectionmark\@gobble
+  \let\subsectionmark\@gobble
+}
+
+\makeatother
+\usepackage{caption}
+
+\captionsetup[figure]{singlelinecheck=false,justification=justified,format= hang,font=normalsize}
+
+%---------------------------------------------
+% LISTA DE SCRIPTS (PROGRAMAS/SOURCE CODE)
+%---------------------------------------------
+\let\lstlistoflistingsorig\lstlistoflistings
+\addto\captionsbrazilian{%
+  \renewcommand*{\lstlistlistingname}{\centering \large LISTA DE PROGRAMAS}%
+  \renewcommand*{\lstlistingname}{PROGRAMA}%  
+}
+
+
+%\renewcommand{\lstlistoflistings}{%
+%  \cleardoublepage\phantomsection\addcontentsline{toc}{chapter}{\lstlistlistingname}% Add toc line
+%    \lstlistoflistingsorig
+%}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset{
+  numbers=left,
+  stepnumber=1,
+  numbersep=5pt,
+  numberstyle=\normalsize\color{black},
+  basicstyle=\ttfamily\normalsize,
+  keywordstyle=\color{blue},
+  commentstyle=\color{gray},
+  stringstyle=\color{codegreen},
+  %breakatwhitespace=false,
+  %keepspaces=true,
+  showstringspaces=false,
+  frame=single,
+  backgroundcolor=\color{white}%\color{backcolour}
+  }
+
+\DeclareCaptionFont{black}{ \color{black} }
+\DeclareCaptionFormat{listing}{
+  \colorbox[cmyk]{0.43, 0.35, 0.35,0.01 }{
+    \parbox{\textwidth}{\hspace{15pt}\vspace{10pt}#1#2#3}
+  }
+}
+
+%\captionsetup[lstlisting]{ format=listing, labelfont=black, textfont=black, singlelinecheck=true, margin=0pt, font={bf,normalsize} }
+
+
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{hyphenat}
+% Set up the images/graphics package
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+\graphicspath{{graphics/}}
+\usepackage[a4paper,top=3cm,botton=2cm,left=3cm,right=2cm,footskip=1.5cm]{geometry}
+%\geometry{a4paper,tmargin=3cm,bmargin=2cm,lmargin=3cm,rmargin=2cm,headheight=1.5cm, includefoot}
+
+%Recortar os espacos em branco em torno da figura
+\usepackage{lineno}
+
+
+%Identar o primeiro paragrafo de cada secao
+\usepackage{indentfirst}
+% Definindo tamanho da identação
+\setlength{\parindent}{1.2cm}
+\setlength{\paperwidth}{21.59cm}
+\setlength{\paperheight}{27.94cm}
+
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fazer lista de símbolos
+\usepackage{nomencl}
+\makenomenclature
+
+\usepackage{ragged2e}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Renomeando as palavras do pacote BABEL - BRAZILIAN
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addto\captionsbrazilian{%
+  \renewcommand{\contentsname}%
+    {\centering \large SUMÁRIO} % Sumário para SUMÁRIO
+  \renewcommand{\figurename}%
+    {FIGURA} % Figura para FIGURA
+  \renewcommand{\tablename}%
+    {TABELA} % Tabela para TABELA
+  \renewcommand{\listfigurename} %
+    {\centering \large LISTA DE FIGURAS} %Lista de Figuras para LISTA DE FIGURAS
+  \renewcommand{\listtablename} %
+    {\centering \large LISTA DE TABELAS} %Lista de Tabelas para LISTA DE TABELAS
+  \renewcommand{\nomname} %
+    {\centering \textbf{\large{LISTA DE ABREVIATURAS E SIGLAS}}}%Lista de abreviaturas e siglas
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Configurando o Sumario, Lista de Tabelas e Figuras
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+
+\renewcommand \thesection {\@arabic\c@section}
+
+\renewcommand{\section}{\@startsection
+{section}%                   % the name
+{1}%                         % the level
+{0mm}%                       % the indent
+{-\baselineskip}%            % the before skip
+{0.5\baselineskip}%          % the after skip
+%{\noindent\centering\Large\textbf}} % the style
+{\noindent\normalsize\textbf}} % the style
+\renewcommand{\subsection}{\@startsection
+{subsection}%                   % the name
+{2}%                         % the level
+{0mm}%                       % the indent
+{-\baselineskip}%            % the before skip
+{0.5\baselineskip}%          % the after skip
+{\noindent\normalsize\textbf}} % the style
+
+\renewcommand{\subsubsection}{\@startsection
+{subsubsection}%                   % the name
+{3}%                         % the level
+{0mm}%                       % the indent
+{-\baselineskip}%            % the before skip
+{0.3\baselineskip}%          % the after skip
+{\noindent\normalsize\textbf}} % the style
+
+%criar a subsubsubsection
+\setcounter{secnumdepth}{4}
+\newcounter{subsubsubsection}[subsubsection]
+\makeatletter
+\def\subsubsubsectionmark#1{}
+\def\thesubsubsubsection {\thesubsubsection.\arabic{subsubsubsection}}
+
+\newcommand\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+                            {-3.25ex\@plus -1ex \@minus -.2ex}%
+                            {1.5ex \@plus .2ex}%
+                             {\normalfont\normalsize\bf}}
+\def\@chapter[#1]#2{%
+  \ifnum \c@secnumdepth >\m@ne
+    \refstepcounter{chapter}
+    \typeout{\@chapapp\arabic{chapter}}
+    \addcontentsline{toc}{chapter}{\protect{\@chapapp\space\thechapter:\space}#1}
+  \else
+    \addcontentsline{toc}{\textbf{chapter}}{#1}
+  \fi
+  \@makechapterhead{#2}
+  \@afterheading}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%O que entra entre os {} é que fica em FIGURA {} BLA BLA BLA
+\renewcommand*\captionlabeldelim{}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\l@section{\@dottedtocline{1}{0em}{2.6em}}
+\def\l@subsection{\@dottedtocline{2}{0em}{2.7em}}
+\def\l@subsubsection{\@dottedtocline{3}{0em}{2.9em}}
+\def\l@subsubsubsection{\@dottedtocline{4}{0em}{3.1em}}
+
+\def\singlespace{
+\vskip\parskip
+\vskip\baselineskip
+\def\baselinestretch{1}
+\ifx\@currsize\normalsize\@normalsize\else\@currsize\fi
+\vskip-\parskip
+\vskip-\baselineskip
+}
+
+\def\onehalfspacing{
+\vskip\parskip
+\vskip\baselineskip
+\def\baselinestretch{1.5}
+\ifx\@currsize\normalsize\@normalsize\else\@currsize\fi
+\vskip-\parskip
+\vskip-\baselineskip
+}
+
+%definir a profundidade do indice
+
+\makeatletter
+\let\@tableofcontents=\tableofcontents
+\def\tableofcontents{\@tableofcontents\thispagestyle{empty}}
+
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% FIM - Configurando o Sumario, Lista de Tabelas e Figuras
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
