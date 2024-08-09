@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.4.15)  31 JUL 2024 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3.31) (preloaded format=pdflatex 2024.7.31)  9 AUG 2024 00:05
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/MEGA/CEFET-Engenharia/10 Periodo/Metodologia da Pesquisa/preProjeto/monografia/main.tex"
-(d:/MEGA/CEFET-Engenharia/10 Periodo/Metodologia da Pesquisa/preProjeto/monografia/main.tex
+**./main.tex
+(main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -23,12 +22,14 @@ File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-) (estrutura.tex (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+) (estrutura.tex
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/03/29 v24.3 The Babel package
 \babel@savecnt=\count196
 \U@D=\dimen141
 \l@unhyphenated=\language79
- (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count197
 
@@ -36,48 +37,62 @@ Package: babel 2024/03/29 v24.3 The Babel package
 * Local config file bblopts.cfg used
 *
 (C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazil.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
-) (C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+)
+(C:\Program Files\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
-)) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex
 Package babel Info: Importing font and identification data for brazilian
 (babel)             from babel-pt-BR.ini. Reported on input line 11.
-) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen142
-)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen143
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count198
@@ -127,7 +142,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (C:\Program Files\MiKTeX\tex/latex/amscls\amsthm.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks24
 \thm@bodyfont=\toks25
@@ -138,20 +154,25 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip54
 \thm@headsep=\skip55
 \dth@everypar=\toks29
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Program Files\MiKTeX\tex/latex/bbding\bbding.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/bbding\bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
-) (C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip56
 \subfigcapskip=\skip57
@@ -170,20 +191,24 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 (C:\Program Files\MiKTeX\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip60
 \subfig@bottom=\skip61
-) (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip62
 \multirow@cntb=\count280
 \multirow@dima=\skip63
 \bigstrutjot=\dimen153
-) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 758.
- (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
@@ -193,34 +218,47 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
- (C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks30
 \XKV@tempa@toks=\toks31
- (C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
+
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex))
 \XKV@depth=\count281
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
- (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
-) (C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box53
 )
@@ -229,7 +267,8 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen158
 \tc@ury=\dimen159
 Package trimclip Info: Using driver 'tc-pdftex.def'.
- (C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen160
@@ -240,16 +279,19 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 \adjbox@pheight=\dimen165
 \adjbox@pdepth=\dimen166
 \adjbox@ptotalheight=\dimen167
- (C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+
+(C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count282
-) (C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box54
 \sift@deathcycles=\count283
 \@vwid@loff=\dimen168
 \@vwid@roff=\dimen169
-)) (C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count284
 \lst@gtempboxa=\box55
 \lst@token=\toks32
@@ -262,20 +304,25 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \lst@newlines=\count288
 \lst@lineno=\count289
 \lst@maxwidth=\dimen173
- (C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2024/03/11 1.10a (Carsten Heinz)
-) (C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 \c@lstnumber=\count290
 \lst@skipnumbers=\count291
 \lst@framebox=\box56
-) (C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
+)
+(C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2024/03/11 1.10a listings configuration
 ))
 Package: listings 2024/03/11 1.10a (Carsten Heinz)
- (C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
+
+(C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+
+(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count292
@@ -296,9 +343,11 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@randommax=\count307
 \c@blind@pangramcount=\count308
 \c@blind@pangrammax=\count309
-) (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
+
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen174
 \captionmargin=\dimen175
@@ -314,7 +363,8 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count311
 Package caption Info: listings package is loaded.
 Package caption Info: subfigure package is loaded.
-) (C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box57
 \beforetitleunit=\skip64
@@ -325,15 +375,19 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \titlewidth=\dimen184
 \titlewidthlast=\dimen185
 \titlewidthfirst=\dimen186
-) (C:\Program Files\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/hyphenat\hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language80
 LaTeX Info: Redefining \_ on input line 43.
-) (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count312
@@ -348,9 +402,10 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen193
 \Gm@layoutvoffset=\dimen194
 \Gm@dimlist=\toks34
- (C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)
 
-C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty:1005: Package xkeyval Error: `botton' undefined in families `Gm'.
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg)
+
+! Package xkeyval Error: `botton' undefined in families `Gm'.
 
 See the xkeyval package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -363,14 +418,18 @@ If that doesn't work, type  X <return>  to quit.
 
 ) (C:\Program Files\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
- (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count315
-) (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 \linenopenalty=\count316
@@ -389,11 +448,16 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \bframebox=\box58
 \linenoamsmath@ams@eqpen=\count323
 LaTeX Info: Redefining \\ on input line 3180.
-) (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2024-03-14 L3 programming layer (loader) 
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
 \l__pdf_internal_box=\box59
@@ -404,23 +468,34 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count325
 \l__lipsum_a_int=\count326
 \l__lipsum_b_int=\count327
- (C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Program Files\MiKTeX\tex/latex/nomencl\nomencl.sty
+
+(C:\Program Files\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Program Files\MiKTeX\tex/latex/nomencl\nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
- (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/koma-script\tocbasic.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/koma-script\tocbasic.sty
 Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
- (C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty
-Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
- (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
- (C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
+
+
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
 )
 \scr@dte@tocline@numberwidth=\skip66
 \scr@dte@tocline@numbox=\box60
@@ -435,7 +510,8 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \openout3 = `main.nlo'.
 
 Package nomencl Info: Writing nomenclature file main.nlo on input line 113.
- (C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+
+(C:\Program Files\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip68
 \RaggedLeftLeftskip=\skip69
@@ -453,7 +529,16 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \JustifyingParindent=\skip81
 )
 \c@subsubsubsection=\count328
-) (main.aux)
+)
+
+LaTeX Warning: Unused global option(s):
+    [A4,justify].
+
+(main.aux (preTextual/capa.aux) (preTextual/rosto.aux)
+(preTextual/fichaCatalografica.aux) (preTextual/aprovacao.aux)
+(preTextual/dedicatoria.aux) (preTextual/sumarios.aux) (textual/introducao.aux)
+(textual/referecialTeorico.aux) (textual/resultados.aux)
+(textual/referencias.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -470,7 +555,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count329
 \scratchdimen=\dimen258
@@ -485,8 +571,10 @@ LaTeX Font Info:    ... okay on input line 20.
 \everyMPtoPDFconversion=\toks37
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count335
@@ -534,15 +622,18 @@ Package caption Info: End \AtBeginDocument code.
 <graphics/600px-Logo_CEFET-MG_corte.png, id=1, 450.18187pt x 286.06876pt>
 File: graphics/600px-Logo_CEFET-MG_corte.png Graphic file (type png)
 <use graphics/600px-Logo_CEFET-MG_corte.png>
-Package pdftex.def Info: graphics/600px-Logo_CEFET-MG_corte.png  used on input line 5.
+Package pdftex.def Info: graphics/600px-Logo_CEFET-MG_corte.png  used on input 
+line 5.
 (pdftex.def)             Requested size: 85.35684pt x 54.24013pt.
  [1
 
 
-{C:/Users/joaoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./graphics/600px-Logo_CEFET-MG_corte.png>] [1])
+{C:/Users/joaoe/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./graphics/6
+00px-Logo_CEFET-MG_corte.png>] [1])
 \openout2 = `preTextual/rosto.aux'.
 
- (preTextual/rosto.tex
+
+(preTextual/rosto.tex
 Underfull \hbox (badness 2401) in paragraph at lines 15--16
 \T1/cmr/m/n/12 no curso de Graduação em Engenharia
  []
@@ -553,11 +644,14 @@ Underfull \hbox (badness 1215) in paragraph at lines 15--16
  []
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [2
 
@@ -566,7 +660,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 \openout2 = `preTextual/fichaCatalografica.aux'.
 
- (preTextual/fichaCatalografica.tex
+
+(preTextual/fichaCatalografica.tex
 Overfull \hbox (2.44162pt too wide) in paragraph at lines 12--36
  [] 
  []
@@ -602,33 +697,34 @@ Underfull \hbox (badness 1215) in paragraph at lines 15--16
 ]
 \openout2 = `preTextual/sumarios.aux'.
 
- (preTextual/sumarios.tex (preTextual/listaSimbolos.tex [2
+ (preTextual/sumarios.tex
+(preTextual/listaSimbolos.tex [2
 
 
 
-]) [3]
-No file main.toc.
+]) [3] (main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
-[4])
+ [4])
 \openout2 = `textual/introducao.aux'.
 
- (textual/introducao.tex) [16
+ (textual/introducao.tex) [9
 
 
 
 ]
 \openout2 = `textual/referecialTeorico.aux'.
 
- (textual/referecialTeorico.tex) [17
+ (textual/referecialTeorico.tex [10
 
 
 
-]
+] [11] [12] [13]) [14]
 \openout2 = `textual/resultados.aux'.
 
- (textual/resultados.tex) [18
+
+(textual/resultados.tex) [15
 
 
 
@@ -636,112 +732,59 @@ No file main.toc.
 \openout2 = `textual/referencias.aux'.
 
  (textual/referencias.tex
-Overfull \hbox (25.76622pt too wide) in paragraph at lines 9--11
-\T1/cmr/m/n/12 mana uti-li-zando soft-ware em-bar-cado e tempo real ba-se-ado em com-pu-ta-ção ubí-qua."Proceedings
+Overfull \hbox (25.76622pt too wide) in paragraph at lines 7--8
+\T1/cmr/m/n/12 mana uti-li-zando soft-ware em-bar-cado e tempo real ba-se-ado e
+m com-pu-ta-ção ubí-qua."Proceedings
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
-
+Overfull \hbox (3.92163pt too wide) in paragraph at lines 51--52
+\T1/cmr/m/n/12 META PLAT-FORMS, INC, Meta Open Source. Re-act Na-tive: Le-arn o
+nce, write anywhere.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--16
-
+)
+Overfull \hbox (52.40848pt too wide) in paragraph at lines 55--43
+\T1/cmr/m/n/12 GOOGLE, Go-o-gle for De-ve-lo-pers. Fi-re-base. 2024. Dis-po-ní-
+vel em: https://firebase.google.com/docs.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
-
- []
-
-[19
+[16
 
 
 
 ]
-Overfull \hbox (3.92163pt too wide) in paragraph at lines 53--55
-\T1/cmr/m/n/12 META PLAT-FORMS, INC, Meta Open Source. Re-act Na-tive: Le-arn once, write anywhere.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-)
-Overfull \hbox (49.1454pt too wide) in paragraph at lines 57--44
-\T1/cmr/m/n/12 GOOGLE, Go-o-gle for De-ve-lo-pers. Fi-re-base. 2024. Dis-po-ní-vel em: https://firebase.google.com/docs 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--44
-
- []
-
-[20]
 
 Package caption Warning: Unused \captionsetup[figure] on input line 37.
 See the caption package documentation for explanation.
 
-(main.aux (preTextual/capa.aux) (preTextual/rosto.aux) (preTextual/fichaCatalografica.aux) (preTextual/aprovacao.aux) (preTextual/dedicatoria.aux) (preTextual/sumarios.aux) (textual/introducao.aux) (textual/referecialTeorico.aux) (textual/resultados.aux) (textual/referencias.aux))
+(main.aux (preTextual/capa.aux) (preTextual/rosto.aux)
+(preTextual/fichaCatalografica.aux) (preTextual/aprovacao.aux)
+(preTextual/dedicatoria.aux) (preTextual/sumarios.aux) (textual/introducao.aux)
+(textual/referecialTeorico.aux) (textual/resultados.aux)
+(textual/referencias.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12506 strings out of 474424
- 214025 string characters out of 5751554
+ 12544 strings out of 474424
+ 215515 string characters out of 5751554
  1935496 words of memory out of 5000000
- 34576 multiletter control sequences out of 15000+600000
+ 34594 multiletter control sequences out of 15000+600000
  567639 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,7n,120p,537b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk>
-Output written on main.pdf (14 pages, 147617 bytes).
+ 115i,7n,120p,679b,265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
+1200.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1200.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm1200.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\joaoe\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk>
+Output written on main.pdf (17 pages, 160367 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
+ 306 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

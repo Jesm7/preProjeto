@@ -9,22 +9,80 @@ Frequência cardíaca ou ritmo cardíaco é o número de vezes que o coração b
 
 \subsection{Saturação (Sp02)}
 
+Historicamente, medir os níveis de oxigênio no sangue era considerado difícil devido aos métodos utilizados serem invasivos. Além disso, os tempos dos processos de medida de oxigenação eram longos, como por exemplo, em métodos químicos, nos quais o oxigênio dissolvido no sangue é retirado da solução através de reações químicas para, então, serem medidas as pressões parciais dos diversos gases retirados, o que permite a determinação do nível de oxigênio (Lima 2009). Tais métodos podiam levar até 20 minutos (Lima 2009).
+
+Devido a esses métodos, a realização de tais procedimentos em pacientes com risco iminente de vida tornava-se inviável, pois os órgãos têm um tempo de sobrevivência limitado em caso de falta de oxigênio, conforme mostrado na tabela 3:
+
 \subsection{Temperatura corporal (Tc)}
+
+Os seres humanos são animais homeotérmicos, ou seja, possuem um sistema térmico que atua de maneira a manter sua temperatura interna constante, até mesmo para grandes variações de condições ambientais (RIBEIRO 2018). A temperatura “normal” não é ajustada a um nível preciso e que existem pequenas variações entre os indivíduos, que podem oscilar desde 35,8ºC a 37,1ºC [15] (Alencar, Lima et al. 2013).
+
+Uma temperatura interna corporal inferior à 28 °C, pode causar arritmia cardíaca e morte. Enquanto que para temperatura interna corporal maior do que 46 °C danos irreversíveis ao cérebro podem ser causados (American Society of Heating e Engineers, 2005 apud (Ribeiro, Brum et al. 1992)).
+
+Devido aos problemas que podem surgir com uma temperatura corporal inadequada, os avanços tecnológicos têm sido essenciais para mitigá-los. Termômetros fáceis de usar e com eficiência comprovada possibilitaram uma tomada de decisão mais assertiva em situações de complicações, melhorando assim a saúde preventiva das pessoas.
+
+É crucial enfatizar que a medição precisa da temperatura corporal deve ser realizada em locais adequados, como axila, reto e boca, para garantir resultados confiáveis. Estes pontos são reconhecidos por proporcionar leituras consistentes e representativas da temperatura interna do corpo. Além dessas áreas tradicionais, avanços tecnológicos permitiram o desenvolvimento de dispositivos modernos capazes de medir com precisão a temperatura a partir da testa do paciente, oferecendo uma alternativa conveniente e eficaz para monitoramento clínico e doméstico.
 
 \subsection{Arduino}
 
+O Arduino surgiu em 2005, na Itália, com um professor chamado Massimo Banzi, que queria ensinar eletrônica e programação de computadores a seus alunos de design, para que eles usassem em seus projetos de arte, interatividade e robótica (de Robótica 2012). Essa ideia surgiu da dificuldade em ensinar programação para pessoas sem experiência prévia. Com isso, Massimo e David Cuartielles decidiram desenvolver esta plataforma, na qual muitas pessoas se tornaram capazes de criar uma variedade de projetos.
+
+Arduino é uma plataforma eletrônica de código aberto baseada em hardware e software fáceis de usar (ARDUINO, 2018). Além da facilidade de programação, destaca-se pelo baixo custo e pela ampla aplicação em diversos projetos. Utilizada por iniciantes e profissionais, permite o desenvolvimento de soluções versáteis em áreas como robótica, automação e dispositivos médicos.
+
 \subsubsection{Tipos de Arduino}
+
+Existem vários modelos e marcas de Arduino, todos com propósitos básicos semelhantes, sendo suas diferenças principalmente nos tamanhos disponíveis, que devem ser escolhidos conforme o projeto em desenvolvimento. Os modelos mais populares incluem o Arduino Uno, Arduino Nano e Arduino Mega.
 
 \subsubsubsection{Arduino UNO}
 
+O Arduino Uno R3 mostrado na figura 1 tem como base o microcontrolador ATmega328P, que possui uma velocidade de operação de 16MHz. Esta placa opera com uma tensão de 5V e pode ser alimentada por uma fonte externa variando de 7 a 12V, sendo que sua faixa de tensão de entrada pode suportar de 6 a 20V no limite. Possui 14 pinos digitais que podem ser utilizados como entrada e saída, dentre os quais 6 podem fornecer saída PWM (Modulação por Largura de Pulso). Esse dispositivo também possui 6 pinos de entrada analógica.
+
+Os pinos digitais podem fornecer até 20mA, e o pino de 3,3V pode fornecer até 50mA. Este Arduino possui uma memória flash de 32 KB, sendo que 0,5 KB são utilizados pelo bootloader. A placa também possui 2 KB de SRAM e 1 KB de EEPROM, o que permite armazenar e manipular dados temporários e permanentes, respectivamente. O LED\_BUILTIN está ligado ao pino digital 13 e pode ser utilizado para testes e sinalização visual.
+
+Em termos de dimensões físicas, o Arduino Uno possui um comprimento de 68,6 milímetros e uma largura de 53,4 milímetros, com um peso de aproximadamente 25 gramas, tornando-o compacto e leve para integrar em diversos tipos de projetos.
+
 \subsubsubsection{Arduino Nano}
+
+O Arduino Nano como mostra a figura 2 é uma placa de desenvolvimento compacta e completa, projetada com base no microcontrolador ATmega328 da arquitetura AVR. Operando com uma tensão de 5V e uma velocidade de clock de 16MHz, o Nano oferece uma combinação ideal de tamanho reduzido e capacidade de processamento robusta, sendo ideal para uma ampla gama de aplicações em sistemas embarcados.
+
+Com 22 pinos de E/S digitais, dos quais 6 são dedicados à saída PWM, o Nano permite controle preciso de dispositivos como motores e luzes, enquanto seus 8 pinos de entrada analógica permitem a leitura de sensores variados. A placa também inclui uma EEPROM de 1KB para armazenamento de dados permanentes e 32 KB de memória flash, dos quais 2 KB são reservados para o bootloader, facilitando o carregamento de programas.
+
+Com suas dimensões compactas de apenas 18x45mm e peso leve de 7g, o Arduino Nano é especialmente adequado para aplicações onde o espaço é limitado, como wearables, dispositivos IoT e projetos portáteis. Seu consumo de energia eficiente, operando a 19 mA em uso típico, torna-o uma escolha econômica para projetos alimentados por bateria.
+
+Em resumo, o Arduino Nano representa uma plataforma versátil e acessível para prototipagem e desenvolvimento de sistemas embarcados, combinando recursos avançados de hardware com uma ampla comunidade de suporte e vasta documentação, facilitando a implementação de soluções inovadoras em diversas áreas da tecnologia.
 
 \subsubsubsection{Arduino Mega}
 
+O Arduino MEGA mostrado na figura 4 é uma placa de desenvolvimento poderosa e robusta, ideal para projetos que exigem um grande número de entradas e saídas digitais e analógicas. Equipado com o microcontrolador ATmega2560, o Arduino MEGA oferece recursos avançados para prototipagem e desenvolvimento de sistemas complexos.
+
+A placa opera com uma tensão de 5V e pode ser alimentada por uma fonte externa que varia entre 7 a 12V, suportando uma faixa de tensão de entrada de 6 a 20V no limite. Com um total de 54 pinos de entrada e saída digital (E/S), dos quais 15 podem fornecer saída PWM, o Arduino MEGA oferece uma ampla capacidade de controle e interatividade. Além disso, possui 16 pinos de entrada analógica, permitindo a leitura precisa de sinais de sensores e outros dispositivos analógicos.
+
+Cada pino de E/S digital pode fornecer até 20 mA de corrente, enquanto o pino de 3,3V pode fornecer até 50 mA. A memória flash do Arduino MEGA é de 256 KB, dos quais 8 KB são utilizados pelo bootloader, oferecendo um grande espaço para armazenar código. A placa também possui 8 KB de SRAM e 4 KB de EEPROM, permitindo o armazenamento de dados temporários e permanentes, respectivamente.
+
+O microcontrolador ATmega2560 opera a uma velocidade de relógio de 16 MHz, proporcionando uma performance estável e eficiente para a maioria dos projetos. O LED\_BUILTIN está ligado ao pino digital 13 e pode ser utilizado para testes e sinalização visual.
+
+Em termos de dimensões, o Arduino MEGA tem um comprimento de 101,52 milímetros e uma largura de 53,3 milímetros, com um peso de aproximadamente 37 gramas. Estas dimensões permitem que a placa seja robusta, mas ainda assim adequada para ser integrada em projetos variados.
+
+O Arduino MEGA é uma excelente escolha para desenvolvedores que precisam de uma plataforma com muitas E/S, grande capacidade de memória e uma performance estável. Seja para projetos educacionais, protótipos industriais ou aplicações de hobby, o Arduino MEGA oferece a flexibilidade e a potência necessárias para transformar ideias em realidade.
+
 \subsection{Sensor MAX30102}
+
+O MAX30102 é um módulo integrado de oximetria de pulso e monitor de frequência cardíaca. Ele inclui LEDs internos, fotodetectores, elementos ópticos e eletrônicos de baixo ruído com rejeição de luz ambiente (Datasheet, 2016). Neste dispositivo, deve-se posicionar a ponta do dedo sobre o sensor. Através deste contato, os LEDs emitem luz em duas faixas diferentes: vermelha e infravermelha.
+
+Com base na quantidade de luz emitida e absorvida pela pele, o sensor pode determinar a saturação de oxigênio da pessoa, pois, sangue oxigenado absorve mais luz infravermelha, enquanto o sangue com baixa oxigenação absorve mais luz vermelha.
+
+Quando o coração bombeia sangue ocorre um aumento no nível de sangue oxigenado. Por sua vez, quando o coração relaxa o volume de sangue diminui. O sensor mede a frequência cardíaca com base no tempo entre o aumento e diminuição do sangue oxigenado (Jonas Souza 2023).
 
 \subsection{Sensor MLX90614}
 
+O sensor MLX90614 é um sensor de temperatura infravermelho fabricado pela empresa Melexis, que com ele é possível fazer medições de temperaturas do ambiente e de objetos sem a necessidade de contato físico (Zazeka 2021). Este sensor se destaca pela praticidade e eficiência, utilizando a comunicação I2C, que além de oferecer uma conexão simples, permite a integração com outros dispositivos no mesmo barramento.
+
 \subsection{Display Oled}
 
+Um diodo orgânico emissor de luz (sigla OLED, em inglês: organic light-emitting diode) é um tipo de LED em que a camada de emissão eletroluminescente é um filme orgânico que emite luz em resposta a uma corrente elétrica (Wikipédia, 2022). Neste trabalho de conclusão de curso, será utilizado o modelo OLED de 0,96” devido à sua eficiência e otimização do espaço no dispositivo. A seguir na tabela temos as especificações técnicas do componente.
+
 \subsection{Modulo GSM SIM800L}
+
+GSM significa Global System Mobile Communication ou Sistema Global de Comunicação Móvel e foi o protocolo responsável pela padronização da telefonia móvel, também conhecido como 2G. GPRS significa General Packet Radio Service ou Serviço de Rádio de Pacote Geral, ficou conhecido como 2,5G e pôde proporcionar o aumento na velocidade de transferência de dados na rede GSM e permitir que o usuário ficasse conectado sempre à internet (Monteiro, Ladivez et al. 2021).
+
+O módulo SIM800L GPRS foi projetado com o objetivo de integrar redes de telefonia ao Arduino, permitindo a comunicação por meio de redes móveis para enviar e receber dados, incluindo mensagens SMS. A seguir na Tabela 8 temos as especificações técnicas do componente.

@@ -1,18 +1,18 @@
 \babel@toc {brazilian}{}\relax 
-\contentsline {section}{\numberline {1}INTRODUÇÃO}{16}{}%
-\contentsline {subsection}{\numberline {1.1}Objetivos}{16}{}%
-\contentsline {section}{\numberline {2}REFERENCIAL TEÓRICO}{17}{}%
-\contentsline {subsection}{\numberline {2.1}Frequência cardíaca (Fc)}{17}{}%
-\contentsline {subsection}{\numberline {2.2}Saturação (Sp02)}{17}{}%
-\contentsline {subsection}{\numberline {2.3}Temperatura corporal (Tc)}{17}{}%
-\contentsline {subsection}{\numberline {2.4}Arduino}{17}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Tipos de Arduino}{17}{}%
-\contentsline {subsubsubsection}{\numberline {2.4.1.1}Arduino UNO}{17}{}%
-\contentsline {subsubsubsection}{\numberline {2.4.1.2}Arduino Nano}{17}{}%
-\contentsline {subsubsubsection}{\numberline {2.4.1.3}Arduino Mega}{17}{}%
-\contentsline {subsection}{\numberline {2.5}Sensor MAX30102}{17}{}%
-\contentsline {subsection}{\numberline {2.6}Sensor MLX90614}{17}{}%
-\contentsline {subsection}{\numberline {2.7}Display Oled}{17}{}%
-\contentsline {subsection}{\numberline {2.8}Modulo GSM SIM800L}{17}{}%
-\contentsline {section}{\numberline {3}RESULTADOS ESPERADOS}{18}{}%
-\contentsline {section}{\numberline {}REFERÊNCIAS}{19}{}%
+\contentsline {section}{\numberline {1}INTRODUÇÃO}{9}{}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{9}{}%
+\contentsline {section}{\numberline {2}REFERENCIAL TEÓRICO}{10}{}%
+\contentsline {subsection}{\numberline {2.1}Frequência cardíaca (Fc)}{10}{}%
+\contentsline {subsection}{\numberline {2.2}Saturação (Sp02)}{10}{}%
+\contentsline {subsection}{\numberline {2.3}Temperatura corporal (Tc)}{10}{}%
+\contentsline {subsection}{\numberline {2.4}Arduino}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Tipos de Arduino}{11}{}%
+\contentsline {subsubsubsection}{\numberline {2.4.1.1}Arduino UNO}{11}{}%
+\contentsline {subsubsubsection}{\numberline {2.4.1.2}Arduino Nano}{12}{}%
+\contentsline {subsubsubsection}{\numberline {2.4.1.3}Arduino Mega}{12}{}%
+\contentsline {subsection}{\numberline {2.5}Sensor MAX30102}{13}{}%
+\contentsline {subsection}{\numberline {2.6}Sensor MLX90614}{13}{}%
+\contentsline {subsection}{\numberline {2.7}Display Oled}{13}{}%
+\contentsline {subsection}{\numberline {2.8}Modulo GSM SIM800L}{13}{}%
+\contentsline {section}{\numberline {3}RESULTADOS ESPERADOS}{15}{}%
+\contentsline {section}{\numberline {}REFERÊNCIAS}{16}{}%

@@ -267,7 +267,6 @@ INPUT .\preTextual\listaSimbolos.tex
 INPUT .\preTextual\listaSimbolos.tex
 INPUT .\preTextual\listaSimbolos.tex
 INPUT preTextual\listaSimbolos.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecsl1200.tfm
 OUTPUT main.toc
 INPUT .\textual\introducao.tex
 INPUT .\textual\introducao.tex
@@ -275,6 +274,7 @@ OUTPUT textual\introducao.aux
 INPUT .\textual\introducao.tex
 INPUT .\textual\introducao.tex
 INPUT textual\introducao.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecsl1200.tfm
 INPUT .\textual\referecialTeorico.tex
 INPUT .\textual\referecialTeorico.tex
 OUTPUT textual\referecialTeorico.aux
